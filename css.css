@@ -1,0 +1,210 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body
+{
+  margin: 30px 5% 40px;
+  background-color: #555961; 
+  font-family:Trebuchet MS;
+
+}
+
+/* MENU */
+.contenedormenu .nav-container {
+  display: flex;
+  overflow-x: auto;
+  align-items: center;
+  max-width: 48em;
+  margin: 1rem auto;
+  background-image: linear-gradient(315deg, #555961 0%, #9096a1 85%);
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  border-radius:8px;
+  font-family:Trebuchet MS;
+	font-size:16px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:4px 2px 2px #2b665e;
+
+}
+
+.contenedormenu .nav-item {
+  flex: 0 0 auto;
+  padding: 8px 10px;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+/* FIN MENU DESPLEGABLE */
+
+/* Contenedor que muestra las peliculas en la db */
+.contenedorgenerico{
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between;
+
+}
+.contenedor{
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  
+}
+/* las peliculas en si estan contenidas en este contenedor que es a la vez un contenido del .contenedorgenerico y tienen su contenido otros items */
+.item{
+  border: black solid 3px;
+  background-color: #4e4e4e;
+  text-align: center;
+  width: 15%;
+  height: auto;
+  min-width: 170px;
+  margin: 15px;
+  max-width: 200px;
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-around;
+}
+
+/* contenidos del contendor .item */
+.titulo {
+  width: 200px;
+  min-height: 30px;
+  margin: 10px 10% 0px;
+
+}
+
+.caratulas{
+  margin: 5px 10px 0px 10px;
+}
+
+.datospeliculas{
+  width: 200px;
+  margin: 0px 10px 0px 0px;
+  
+}
+
+.puntuaciones{
+  height: 10px;
+  width: 200px;
+  margin: 0px 0px 7px 0px ;
+
+}
+.enlaces{
+  height: auto;
+  margin: 10px 0px 0px 0px;
+  width: 200px;
+  text-align: center;
+}
+.estrella{
+  width: 15px;
+}
+
+.caratula{
+  width: 120px;
+}
+
+.icon{
+
+  width: 20px;
+  height: 20px;
+}
+/* fin de los elementos del contenedor .icon */
+
+/* empieza el estilo de los botones de pasar adelante y atras en la filmoteca */
+.botonpaginas {
+	background-image: linear-gradient(315deg, #555961 0%, #9096a1 85%);
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:16px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:4px 2px 2px #2b665e;
+}
+.botonpaginas:hover {
+  background-image: linear-gradient(315deg, #9096a1 0%, #555961 85%);
+	background-color:#6c7c7c;
+}
+.botonpaginas:active {
+	position:relative;
+	top:1px;
+}
+ /* el estilo de los formularios de añadir, buscar o editar peliculas */
+.form{ 
+  background-color:#9096a1;
+  border:solid 3px #555961;
+  font-size:13px;
+  color:#000000;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+  border-radius:8px;
+  padding-top:6px;
+  padding-bottom:6px;
+  padding-left:7px;
+  padding-right:7px;
+  font-family:Trebuchet MS;
+	font-size:16px;
+	font-weight:bold;
+}
+
+/* estilo de los botones de los formularios */
+.botonpaginasañadirpelicula {
+	background-image: linear-gradient(315deg, #555961 0%, #9096a1 85%);
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:16px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:4px 2px 2px #2b665e;
+}
+.botonpaginasañadirpelicula:hover {
+  background-image: linear-gradient(315deg, #9096a1 0%, #555961 85%);
+	background-color:#6c7c7c;
+}
+.botonpaginasañadirpelicula:active {
+	position:relative;
+	top:1px;
+}
+/* fin estilo de los botones de los formularios */
+footer{
+  background-image: linear-gradient(315deg, #555961 0%, #9096a1 85%);
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  border-radius:8px;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:16px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:4px 2px 2px #2b665e;
+  width: 100%;
+  margin: 30% 0px 0px 0px
+}
+
+
+/* slider */
+.slidd{
+  width: 1280px;
+  height: 720px;
+}
+
